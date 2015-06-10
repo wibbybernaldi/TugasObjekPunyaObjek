@@ -9,6 +9,9 @@ public class Pemain {
     private String kewarganegaraan;
     private String tmpLahir;
 
+    public Pemain() {
+    }
+
     public Pemain(String namaPemain, String tglLahir, String kewarganegaraan, String tmpLahir) {
         this.namaPemain = namaPemain;
         this.tglLahir = tglLahir;

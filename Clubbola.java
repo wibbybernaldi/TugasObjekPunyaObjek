@@ -8,6 +8,9 @@ public class Clubbola {
     private String warnaJersie;
     private Pemain namaPemain;
 
+    public Clubbola() {
+    }
+
     public Clubbola(Pemain namaPemain, String namaClub, String warnaJersie) {
         this.namaPemain = namaPemain;
         this.namaClub = namaClub;
